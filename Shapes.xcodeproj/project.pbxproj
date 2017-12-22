@@ -25,6 +25,7 @@
 		6910D0B01EA011A40096A7A1 /* TouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910D0A01EA011A40096A7A1 /* TouchGestureRecognizer.swift */; };
 		6910D0B51EA011BC0096A7A1 /* Shapes.png in Resources */ = {isa = PBXBuildFile; fileRef = 6910D0B31EA011BC0096A7A1 /* Shapes.png */; };
 		6910D0B61EA011BC0096A7A1 /* SwiftBird.png in Resources */ = {isa = PBXBuildFile; fileRef = 6910D0B41EA011BC0096A7A1 /* SwiftBird.png */; };
+		691714E41FED72E000A425EC /* Flying Balls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691714E31FED72DF00A425EC /* Flying Balls.jpg */; };
 		693C200F1EA94B6D00BF372F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693C200E1EA94B6D00BF372F /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		6910D0A01EA011A40096A7A1 /* TouchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchGestureRecognizer.swift; sourceTree = "<group>"; };
 		6910D0B31EA011BC0096A7A1 /* Shapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shapes.png; sourceTree = "<group>"; };
 		6910D0B41EA011BC0096A7A1 /* SwiftBird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftBird.png; sourceTree = "<group>"; };
+		691714E31FED72DF00A425EC /* Flying Balls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flying Balls.jpg"; sourceTree = "<group>"; };
 		693C200E1EA94B6D00BF372F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 		6910D0B21EA011BC0096A7A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				691714E31FED72DF00A425EC /* Flying Balls.jpg */,
 				6910D0B31EA011BC0096A7A1 /* Shapes.png */,
 				6910D0B41EA011BC0096A7A1 /* SwiftBird.png */,
 			);
@@ -193,6 +196,7 @@
 			files = (
 				6910D0B61EA011BC0096A7A1 /* SwiftBird.png in Resources */,
 				6910D05E1EA004B00096A7A1 /* Assets.xcassets in Resources */,
+				691714E41FED72E000A425EC /* Flying Balls.jpg in Resources */,
 				6910D0B51EA011BC0096A7A1 /* Shapes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
