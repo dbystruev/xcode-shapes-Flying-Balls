@@ -3,7 +3,7 @@ Xcode project built from Shapes template in Swift Playgrounds for iPad.
 
 ![Flying Balls pic](https://github.com/dbystruev/xcode-shapes-Flying-Balls/blob/master/Resources/Flying%20Balls.jpg)
 
-Follow (xcode-shapes)[https://github.com/dbystruev/xcode-shapes] project if you want to convert your own Shapes template from Swift Playgrounds to Xcode.
+Follow [xcode-shapes](https://github.com/dbystruev/xcode-shapes) project if you want to convert your own Shapes template from Swift Playgrounds to Xcode.
 
 ## Copyright notice
 This work is based on the code derived from:
