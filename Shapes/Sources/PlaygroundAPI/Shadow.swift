@@ -30,10 +30,8 @@ public struct Shadow {
     }
 }
 
-extension Shadow: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text("Offset = \(offset), blur radius = \(blurRadius), opacity = \(opacity)")
-        }
+extension Shadow: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return "Offset = \(offset), blur radius = \(blurRadius), opacity = \(opacity)"
     }
 }

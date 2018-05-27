@@ -147,10 +147,8 @@ public enum ImageContentMode {
     case scaleToFitMaintainingAspectRatio
 }
 
-extension Image: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text("Width \(size.width), height = \(size.height)")
-        }
+extension Image: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return "Width \(size.width), height = \(size.height)"
     }
 }

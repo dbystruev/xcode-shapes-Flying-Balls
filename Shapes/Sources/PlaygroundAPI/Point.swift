@@ -37,10 +37,8 @@ public struct Point {
     
 }
 
-extension Point: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text("x = \(x), y = \(y)")
-        }
+extension Point: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return "x = \(x), y = \(y)"
     }
 }

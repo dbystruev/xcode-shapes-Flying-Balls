@@ -101,10 +101,8 @@ public class Text: AbstractDrawable {
     }
 }
 
-extension Text: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text(string)
-        }
+extension Text: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return string
     }
 }

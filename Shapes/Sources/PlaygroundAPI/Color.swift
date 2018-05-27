@@ -115,10 +115,8 @@ public func ==(left: Color, right: Color) -> Bool {
     return left.uiColor == right.uiColor
 }
 
-extension Color: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .color(uiColor)
-        }
+extension Color: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return uiColor
     }
 }

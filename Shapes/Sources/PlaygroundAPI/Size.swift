@@ -37,10 +37,8 @@ public struct Size {
     
 }
 
-extension Size: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text("Width = \(width), height = \(height)")
-        }
+extension Size: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return "Width = \(width), height = \(height)"
     }
 }

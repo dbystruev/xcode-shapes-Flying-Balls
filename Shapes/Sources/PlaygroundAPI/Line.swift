@@ -103,10 +103,8 @@ public class Line: Shape {
     }
 }
 
-extension Line: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text("Length = \(distanceBetween(start: start, end: end))")
-        }
+extension Line: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return "Length = \(distanceBetween(start: start, end: end))"
     }
 }

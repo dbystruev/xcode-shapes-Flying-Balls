@@ -51,10 +51,8 @@ public class Circle: Shape {
     }
 }
 
-extension Circle: CustomPlaygroundQuickLookable {
-    public var customPlaygroundQuickLook: PlaygroundQuickLook {
-        get {
-            return .text("Radius = \(radius)")
-        }
+extension Circle: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return "Radius = \(radius)"
     }
 }
